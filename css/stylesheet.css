@@ -51,9 +51,7 @@
     position:center;
     }
     
-    body {
-      margin: 0px;
-    }
+   
     .content {
       background-color: #ddd;
       padding: 5px;
@@ -68,16 +66,20 @@
       font-size: 35px;
       text-align: center;
       font-weight: bold;
+      color: white;
+  text-shadow: 2px 2px 4px #000000;
 
     }
     .contentbox{
       width:100%;
       height:500px;
+      padding: 35px;
 
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     div.polaroid {
-      width: 80%;
+      display: block;
+      width: 30%;
       background-color: white;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       margin-bottom: 25px;
@@ -87,4 +89,5 @@
       text-align: center;
       padding: 10px 20px;
     }
+
  
