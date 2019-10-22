@@ -14,8 +14,8 @@
     margin: 0;
     padding: 0;
     
-    width: 100%;
-    height: 100px;
+   
+    
     
     background-color:#00305a ;
     overflow: hidden;
@@ -58,7 +58,8 @@
     .content {
       background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
       padding: 5px;
-      height: 100%; 
+    
+     
     }
     .footer {
    
@@ -78,18 +79,18 @@
 
     }
     .contentbox{
-      width:100%;
-      height:100%;
+      
+      
       padding: 35px;
       background-color: white;
 
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .imgbox{
-      max-width:100%;
-      min-width:500px;
-      height:1000px;
-      max-height: 100%;
+      
+     
+     
+      
       padding: 35px;
       padding-left: 125px;
       background-color: white;
@@ -100,9 +101,7 @@
       margin: 5px;
       border: 1px solid #ccc;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      float: left;
-      max-width: 30%;
-      min-width: 300px;
+     
     }
     
     div.gallery:hover {
@@ -111,7 +110,7 @@
     
     div.gallery img {
       width: 100%;
-      height: 400px;
+     
     }
     
     div.desc {
@@ -140,8 +139,7 @@
     }
     li social{
       align-content: center;
-    
-     
-    }
+     }
 
+     
  
