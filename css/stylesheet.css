@@ -105,10 +105,7 @@
       border: 1px solid #777;
     }
     
-    div.gallery img {
-      /*width: 100%;*/
-     
-    }
+   
     
     div.desc {
       padding: 15px;
@@ -196,6 +193,18 @@
     .col{
        width: 260px;
     }
+    .profilepic{
+      padding-left: 5px;
+      padding-right: 5px;
+      width:270px;
+      height:270px;
+    }
+    .logoimg{
+      width:55px;
+    }
+    .iconimg{
+      width: 25px;
+    }
   }
 
 
@@ -219,4 +228,112 @@
        padding-left: 34px;
        padding-right: 34px;
     }
+    .logoimg{
+      width: 55px;
+
+    }
+    .topmenu{
+      font-size: 15px;
+    }
+.active{
+  font-size: 15px;
+}
+.contenttext{
+  font-size: 35px;
+}
+.contentbox{
+      
+    text-align: center;
+ 
+  padding: 5px;
+  background-color: white;
+font-size: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.iconimg{
+  width: 25px;
+}
+.profilepic{
+  padding-left: 5px;
+  padding-right: 5px;
+  width:250px;
+  height:250px;
+
+}
+.logoimg{
+  width:55px;
+}
+.iconimg{
+  width: 25px;
+}
   }
+  @media only screen and (min-width: 767px) and (max-width:3620px) {
+    .portimage{
+      width: 300px;
+      height: 350px;
+    }
+
+  }
+  @media  (min-width: 3840px) {
+    .portimage{
+      width: 1300px;
+      height: 1350px;
+      
+    }
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      font-size: 100px;
+    }
+    p.h1{
+      font-size: 135px;
+      text-align: center;
+      font-weight: bold;
+      color: white;
+  text-shadow: 2px 2px 4px #000000;
+    }
+    .footer {
+   
+      background-color: grey;
+      padding: 10px;
+      text-align: right;
+      display:block;
+     height:450px;
+     font-size: 75px;
+    }
+     .logoimg{
+      width: 155px;
+
+    }
+    .topmenu{
+      font-size: 60px;
+    }
+.active{
+  font-size: 60px;
+}
+.contenttext{
+  font-size: 75px;
+}
+.contentbox{
+      
+      
+  padding: 35px;
+  background-color: white;
+font-size: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.iconimg{
+  width: 85px;
+}
+.profilepic{
+  padding-left: 10px;
+  padding-right: 10px;
+  width:1750px;
+  height:1700px;
+
+}
+
+  }
+
+ 
+ 
