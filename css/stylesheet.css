@@ -115,11 +115,7 @@
     .clearfix {
       overflow: auto;
     }
-    .column {
-      float: left;
-      width: 50%;
-      padding: 15px;
-    }
+   
     
     .col{
       float: left;
@@ -217,6 +213,7 @@
     .iconimg{
       width: 25px;
     }
+    
   }
 
 
@@ -278,6 +275,7 @@ font-size: 15px;
 .iconimg{
   width: 25px;
 }
+
   }
   @media only screen and (min-width: 767px) and (max-width:3620px) {
     .portimage{
@@ -296,6 +294,12 @@ font-size: 15px;
     .iconimg{
       width: 25px;
     }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 15px;
+    }
+    
 
   }
   @media  (min-width: 3840px) {
@@ -355,6 +359,11 @@ font-size: 70px;
   width:1750px;
   height:1700px;
 
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
 }
 
   }
