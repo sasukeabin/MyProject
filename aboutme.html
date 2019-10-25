@@ -27,8 +27,13 @@
     <div class="contentbox">
       <div class="row">
         <div class="column">
-          <p>
-            <img  src="img/profile.jpg" alt="profilepic" width="400" >
+            <picture>
+                <source srcset="img/4k/profile.jpg" media="(min-width: 3840px)">
+                  <source srcset="img/1080/profile.jpg" media="(min-width: 1920px)">
+                  <source srcset="img/360/profile.jpg" media="(min-width: 640px)">
+                    <source srcset="img/360/profile.jpg" media="(min-width: 320px)">
+            <img class="profilepic" src="img/profile.jpg" alt="profilepic"  >
+            </picture>
 
           
         </div>
