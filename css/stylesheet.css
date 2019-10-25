@@ -173,6 +173,18 @@
        padding-left: 60px;
        padding-right: 30px;
     }
+    .profilepic{
+      padding-left: 5px;
+      padding-right: 5px;
+      width:270px;
+      height:270px;
+    }
+    .logoimg{
+      width:55px;
+    }
+    .iconimg{
+      width: 25px;
+    }
   }
 
   @media only screen and (min-width:322px) and (max-width: 413px) {
@@ -271,6 +283,18 @@ font-size: 15px;
     .portimage{
       width: 300px;
       height: 350px;
+    }
+    .profilepic{
+      padding-left: 5px;
+      padding-right: 5px;
+      width:270px;
+      height:270px;
+    }
+    .logoimg{
+      width:55px;
+    }
+    .iconimg{
+      width: 25px;
     }
 
   }
